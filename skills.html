@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Personal Portfolio</h1>
+            </div>
+            <ul>
+                <li>
+                    <a href="about.html" id="about" onclick="about()">About Me</a>
+                    <a href="skills.html" id="skills" onclick="skills()">Skills</a>
+                    <a href="qualification.html" id="qualification" onclick="qualification()">Qualification<a>
+                    <a href="project.html" id="projects" onclick="projects()">Projects</a>
+                    <a href="contact.html" id="contact" onclick="contact()">Connect With Me</a>
+                    
+
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section class="skills-section" id="skills">
+        <h1>SKILLS</h1>
+        <div class="skills-section-cards" data-aos="fade-in" data-aos-easing="ease-in-out" data-aos-duration="1200" data-aos-once="true">
+            <div class="card-container" style="margin-left: 560px;">
+                <div class="card">
+                    <div class="skill-logo">
+                      <span> <i class='bx bxl-html5'> </i>  </span> 
+                    </div>
+                    <div class="skill-description" style="color: red;">
+                        <h5 class="skill-description-1">Web Development</h3>
+                        <p class="skills-desc">HTML5, CSS3, JavaScript</p>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="card-container" style="margin-left: 560px;">
+                <div class="card">
+                    <div class="skill-logo">
+                        <span><i class='bx bxl-postgresql'></i></span>
+                    </div>
+                    <div class="skill-description" style="color: red;">
+                        <h5 class="skill-description-1">Databases</h3>
+                        <p class="skills-desc">MySQL, MongoDB</p>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            
+            <div class="card-container" style="margin-left: 560px;">
+                <div class="card">
+                    <div class="skill-logo">
+                       <span><i class='bx bxl-python'></i></span>
+                    </div>
+                    <div class="skill-description" style="color: red;">
+                        <h5 class="skill-description-1">Other Languages</h3>
+                        <p class="skills-desc">C, Python</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 id="expanding" style="text-align: center; margin-top: 20px"></h3>
+    </section>
+
+    <script src="./script.js"></script>
+  
+</body>
+</html>
